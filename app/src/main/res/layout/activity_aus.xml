@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.zenonrental.AboutUs"
+    android:background="#FFF">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/aus"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/me" />
+
+    <TextView
+        android:id="@+id/tvNamaku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/aus"
+        android:layout_alignStart="@+id/aus"
+        android:layout_below="@+id/aus"
+        android:layout_marginLeft="43dp"
+        android:layout_marginStart="43dp"
+        android:text="Zakaria Mursid" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvNamaku"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="15dp"
+        android:isScrollContainer="false"
+        android:text="Aplikasi Zenon Rental ini diharapkan dapat membantu teman teman dalam mensimulasikan budgeting sewa peralatan di Zenon Rental Jogja. Aplikasi ini dibuat dengan melihat pricelist Zenon Rental daerah Jogja /Desember 2017. Jadi apabila ada ketidak cocokan data mohon dimaklumi. Teman-teman dapat menghubungi saya apabila sekiranya ada yang salah di Aplkasi ini, terimakasih." />
+
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="38dp"
+        android:src="@drawable/fb"
+        android:id="@+id/fb" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/fb"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/yt"
+        android:id="@+id/yt" />
+
+    <ImageView
+        android:id="@+id/ig"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignTop="@+id/yt"
+        android:src="@drawable/ig" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
+
+
+
+
